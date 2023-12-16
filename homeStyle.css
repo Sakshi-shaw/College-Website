@@ -231,19 +231,14 @@ div {
 }
 
 .bcardright1 {
-    background-color: #EEEDE7;
+    background-color: #b19c94;
     padding: 5px 5px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     animation-name: slidein1;
     animation-duration: 1s;
+    text-align: center;
+    color: white;
 }
 
-0% {
-    margin-left: -100%;
-    width: 100%;
-}
-100% {
-    margin-left: 0%;
-    width: 100%;
-}
+
