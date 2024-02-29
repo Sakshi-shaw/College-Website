@@ -1,19 +1,15 @@
-
 body {
     font-family: Arial, Helvetica, sans-serif;
   }
 *{
     box-sizing: border-box;
 }
-
 /***** Top navigation menu *****/
 .topnav {
     background-color: gainsboro;
     overflow: hidden;
   }
-  
-  
-  .topnav a {
+   .topnav a {
     float: left;
     color: black;
     text-align: center;
@@ -22,17 +18,13 @@ body {
     font-size: 17px;
 
   }
-
-  
 .topnav a:hover {
   background-color: #38bcd0;
   color: black;
 }
-
   .dropdown {
     float: left;
-    overflow: hidden;
-    
+    overflow: hidden; 
   }
   .dropdown .dropbtn {
     font-size: 100%;
@@ -44,7 +36,6 @@ body {
     border: none;
     margin: 0;
   }
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -53,7 +44,6 @@ body {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
-
 /* Links inside the dropdown */
 .dropdown-content a {
     float: none;
@@ -63,26 +53,19 @@ body {
     display: block;
     text-align: left;
   }
- 
   .dropdown-content a:hover {background-color: #38bcd0;}
- 
   /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
-
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #38bcd0;}
-
-/*****************************/
-
 /* Silde Class */
-
 .sildeClass{
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 90vh;
   background: #e3f9f6;
 }
 .slider{
@@ -115,8 +98,7 @@ body {
   display: flex;
   justify-content: center;
   width: 600px;
-  margin-top: -1px;
-  text-align: center;
+  margin-top: -40px;
 }
 .manual-btn{
   border-radius: 10px;
@@ -207,39 +189,83 @@ body {
 #radio13:checked ~ .navigation-auto .auto-btn12{
   background: #a45c64;
 }
-
-
+/* Campus Life */
+center {
+  display: block;
+  text-align: -webkit-center;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.column {
+  float: left;
+  width: 16.33%;
+  padding: 0 10px;
+}
+.ccolumn20 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.erow {
+  width: 28%; /* Adjust the width as needed */
+  margin-bottom: 20px; /* Add margin between rows */
+  box-sizing: border-box;
+}
+.bcardleft2 {
+  width: 100%;
+  box-sizing: border-box;
+}
+.frame {
+  overflow: hidden;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 /* Footer */
-
-
 .crow {
   margin: 0 -5px;
-}
-* {
-  box-sizing: border-box;
-}
-* {
-  box-sizing: border-box;
-}
-
-div {
-  display: block;
 }
 .crow:after {
   content: "";
   display: table;
   clear: both;
 }
-
 .bcardright1 {
-    background-color: rgb(39, 39, 39);
+  text-align: center;
+    background-color: #EEEDE7;
     padding: 5px 5px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     animation-name: slidein1;
     animation-duration: 1s;
-    text-align: center;
-    color: white;
 }
-
-
+.title {
+    color: grey;
+    font-size: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.active {
+    background-color: #000000;
+    color: black;
+}
+b {
+  font-weight: bold;
+}
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
